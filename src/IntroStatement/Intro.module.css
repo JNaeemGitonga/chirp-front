@@ -1,0 +1,11 @@
+.statement {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: rgb(77, 70, 70);
+    text-align: justify;
+    max-width: 600px;
+    margin: auto
+}
+
+.statement-wrapper {
+}

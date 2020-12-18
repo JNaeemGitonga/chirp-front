@@ -1,0 +1,38 @@
+.card {
+  max-width: 600px;
+  margin: 20px;
+}
+
+.title {
+  font-size: 14,
+}
+
+.story  {
+  margin-bottom: 12;
+  min-width: 350px;
+  text-align: left;
+}
+
+.likes {
+  display: inherit;
+}
+
+.cardActions {
+  width: 95%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.like-icon {
+  display: block;
+  position: relative;
+  top: -4px;
+  margin: 0 3px;
+  top: -5px;
+}
+
+@media screen and (max-width: 420px) {
+  .story {
+    min-width: unset;
+  }
+}

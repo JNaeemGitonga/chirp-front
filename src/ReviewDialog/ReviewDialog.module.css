@@ -1,0 +1,76 @@
+#dialog-title {
+    margin-left: 24px;
+    padding-bottom: 0;
+}
+
+h5 {
+  margin: 10px auto 15px 48px;
+  min-width: 60px;
+}
+
+.context {
+  text-align: justify;
+}
+
+.likes {
+  margin-top: -3px;
+  line-height: 1.75;
+  font-weight: 500;
+}
+  
+.like-icon {
+  display: block;
+  position: relative;
+  margin: 0 3px;
+  top: -5px;
+}
+
+.actions-box {
+  justify-content: space-around !important;
+}
+
+.like-box {
+  padding-top: 10px;
+}
+
+.like-button {
+  padding: unset;
+  padding-top: 4px;
+}
+
+.close-button {
+  margin-top: 4px;
+}
+
+
+@media only screen and (max-width: 425px) {
+
+  #dialog-title {
+    margin-left: unset;
+    margin: auto;
+    padding-bottom: 0;
+  }
+
+  .author {
+    margin: 10px auto 15px auto;
+    min-width: 200px;
+    text-align: center;
+  }
+
+  .dialog-box { 
+    margin: unset !important; 
+    /* if this worked it would be great it would take away the margin
+    from the dialog box and make it have the entire width of the screen */
+  }
+
+  .context {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .actions-box {
+    justify-content: space-between !important;
+    float: left;
+    margin-left: -5px;
+  }
+}
